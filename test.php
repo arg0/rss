@@ -1,3 +1,3 @@
 <?php
-	echo $_SERVER['HTTPS'];
+	echo (isset($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) != "on");
 	?>
