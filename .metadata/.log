@@ -1,0 +1,29 @@
+!SESSION 2013-04-09 14:11:38.721 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr13-20130114_134867 (JIT enabled, AOT enabled)
+J9VM - 20130114_134867
+JIT  - r9_20130108_31100
+GC   - 20121212_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.ui 4 4 2013-04-09 14:11:40.941
+!MESSAGE Unable to find Action Set: org.eclipse.wst.server.ui.internal.webbrowser.actionSet
+
+!ENTRY org.eclipse.ui.workbench 2 0 2013-04-09 14:11:41.762
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2013-04-09 14:11:41.762
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@51c251c2,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@6e1a6e1a),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@3b7d3b7d)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@1a001a,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@6e1a6e1a),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@3b7d3b7d)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.ui 4 4 2013-04-09 14:13:30.414
+!MESSAGE Invalid preference page path: HTML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2013-04-09 14:13:30.416
+!MESSAGE Invalid preference page path: XML Syntax
